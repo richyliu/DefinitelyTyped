@@ -97,6 +97,7 @@ export interface Plugin {
     onFocus?: EventHook;
     onInput?: EventHook;
     onKeyDown?: EventHook;
+    onKeyUp?: EventHook;
     onPaste?: EventHook;
     onSelect?: EventHook;
 }
